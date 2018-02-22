@@ -20,7 +20,7 @@
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
      <plugin name="cordova-plugin-geolocation" spec="~2.1.0"/>
-  <plugin name="cordova-plugin-geolocation-tests" spec="http://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation#:/tests"/>
+  
   <plugin name="cordova-plugin-geofence" spec="https://github.com/cowbell/cordova-plugin-geofence.git"/>
   <plugin name="cordova-plugin-geofence-test" spec="https://github.com/cowbell/cordova-plugin-geofence.git#:/tests"/>
   <plugin name="cordova-plugin-test-framework" spec="~1.1.1"/>
