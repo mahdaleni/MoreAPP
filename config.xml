@@ -22,6 +22,12 @@
      <plugin name="cordova-plugin-geolocation" spec="~2.1.0"/>
   
   <plugin name="cordova-plugin-geofence" spec="https://github.com/cowbell/cordova-plugin-geofence.git"/>
+  <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            <uses-permission android:name="android.permission.VIBRATE" />
+   </config-file>  
           
   <plugin name="cordova-plugin-device" spec="~1.1.1"/>
   <plugin name="cordova-plugin-console" spec="~1.0.2"/>
